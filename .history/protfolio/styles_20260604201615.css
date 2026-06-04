@@ -1,0 +1,98 @@
+    nav {
+    background-color: rgb(245, 57, 160);
+    top: 0;
+    padding: 4px;
+    z-index: 999;
+    margin-top: 0%;
+    flex-direction: column;
+    p align-items: center;
+    ;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(245, 57, 160);
+    /* your chosen color */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* ensures it's above other content */
+}
+
+nav ul {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(20, 3, 36);
+    color: rgb(240, 37, 226);
+}
+
+#welcome {
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome h2 {
+    position: relative;
+    margin: 0;
+    color: red;
+    animation-name: expand;
+    animation-duration: 3.5s;
+    transition: all 1s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+#welcome h1 {
+    font-size: 68px;
+    margin: 0;
+}
+
+#welcome ul {
+    margin-top: 190px;
+    font-size: 27px;
+}
+
+#project {
+    padding: 200px;
+}
+
+#contact {
+    padding: 200px;
+    font-size: 48px;
+}
+
+#connect {
+    font-size: 38px;
+    text-align: vertical;
+}
+
+br {
+    padding: 100px;
+    text-align: center;
+    font-size: 1000px;
+}
+
+nav a:hover {
+    background-color: rgb(99, 12, 158);
+    transform: scale(1);
+    transition: 1s ease-in;
+    animation: duration timing-function delay iteration-count direction fill-mode;
+}
+
+nav a {
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }

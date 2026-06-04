@@ -1,0 +1,21 @@
+input {
+    width: 100%;
+    padding: auto;
+}
+
+select {
+    width: 100%;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}

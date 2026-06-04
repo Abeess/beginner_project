@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>survey-form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label"> Name: <input placeholder="enterr your full name" id="name" name="name" type="text" required /></label>
+            <label id="email-label" for="email"> Email: <input id="email" placeholder="enter your full email"name="email" type="email" required /></label>
+            <label for="number" id="number-label">Age: <input placeholder="enterr your age" id="number" name="number" type="number" min="18" max="40" required /></label>
+        </fieldset>
+
+
+        <fieldset>
+            <label for=dropdown>How is it my work?
+
+            <select id="dropdown" name="dropdown">
+  <option value="">(select one)</option>
+            <option value="1">awesome...😍👌</option>
+            <option value="2">not very bad..🙌</option>
+                </select>
+                
+                 </fieldset>
+                <fieldset>
+                <legend>Did you like my form?</legend>
+                <label>yes <input type="radio" value="yes" name="name" class="inline"></label>
+            <label>NO <input type="radio" class="inline" value="No" name="name"></label> </fieldset>
+        <fieldset>
+
+            <legend>Did you enter correct information</legend>
+            <label>yaa absolutely  <input type="checkbox" class="inline" checked value="yaa"></label>
+            <label>Nop<input type="checkbox" value="noo" class="inline" ></label>
+        </fieldset>
+        <fieldset>
+            <label>suggest any improvement</label>
+            <textarea placeholder="text anything here"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="submit" id="submit">
+
+    </form>
+
+</body>
